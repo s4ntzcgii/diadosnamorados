@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversante PP (premium plus)</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background: linear-gradient(to bottom right, #ffccd5, #ffe6f0);
+      margin: 0;
+      padding: 0;
+      color: #5a0033;
+    }
+
+    header {
+      background-color: #ff99bb;
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: white;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .heart {
+      position: absolute;
+      font-size: 2em;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .heart:nth-child(1) {
+      left: 10%;
+      top: 10px;
+      animation-delay: 0s;
+    }
+
+    .heart:nth-child(2) {
+      left: 80%;
+      top: 20px;
+      animation-delay: 1s;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #fff0f6;
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .container p {
+      font-size: 1.3em;
+      line-height: 1.8em;
+      text-align: justify;
+    }
+
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .photos img {
+      max-width: 100%;
+      height: auto;
+      width: 300px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .photos img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #883355;
+      font-size: 0.95em;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .photos img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="heart">❤️</div>
+    <div class="heart">💖</div>
+    <h1>Conversante PP (premium plus)</h1>
+  </header>
+
+  <div class="container">
+    <p>
+      Sempre tem um que se destaca entre tantos, né. O Samuel é esse, ele é muito, muito perfeitinho, bem meu tipo mesmo.
+      É moreninho, mais alto que eu, é muito bonito, é crente, e uma das melhores qualidades dele... é rato de academia.
+      Daqueles que realmente têm um shape muito bonito e até mesmo "invejável" pelos demais.
+      Ele me trata bem demais, é educado, me elogia, é de família, puxa assunto e o principal: ele não some do nada.
+      A gente se conhece desde fevereiro, mas só começamos a conversar de fato esse mês (junho).
+      Eu acho que eu realmente tô começando a gostar dele. E sim, um milagre aconteceu: NÃO TO ENJOANDO DELE!!!
+    </p>
+
+    <div class="photos">
+      <img src="samuel.jpg" alt="Foto do Samuel">
+         </div>
+  </div>
+
+  <footer>
+    &copy; 2025 - Especial Dia dos Namorados 💘
+  </footer>
+
+</body>
+</html>
